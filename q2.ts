@@ -1,5 +1,9 @@
 function arrayStringify(a) {
-  /* Your code here */
+  let c:string = "";
+  for(const b of a) {
+    c +=b.toString();
+  }
+  return c;
 }
 
 const c1 = [1, 2, 3];
